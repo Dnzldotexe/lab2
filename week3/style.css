@@ -31,6 +31,12 @@ nav a {
     text-decoration: none;
 }
 
+nav a:hover {
+    background-color: #403F60;
+    color: #A359EC;
+    transform: scale(1.1);
+}
+
 #home {
     padding: 0.5rem 1rem 0rem;
 }
@@ -41,4 +47,19 @@ nav a {
 
 h1, a {
     color: #A359EC;
+}
+
+#profile img {
+    border: 3px solid #A359EC;
+}
+
+#profile p {
+    display: grid;
+    place-items: center;
+    font-size: 1.5rem;
+}
+
+.container-1 {
+    max-width: 768px;
+    width: 90%;
 }
