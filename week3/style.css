@@ -1,3 +1,4 @@
+/* Font  */
 :root {
     font-family: Inter, sans-serif;
     font-feature-settings: 'liga' 1, 'calt' 1;
@@ -6,6 +7,8 @@
     :root { font-family: InterVariable, sans-serif; }
 }
 
+
+/* Global styles */
 body {
     max-width: 1920px;
     margin: 0 auto;
@@ -15,6 +18,8 @@ body {
     color: #ffffff;
 }
 
+
+/* Nav styles */
 nav {
     display: flex;
     width: 90%;
@@ -33,7 +38,6 @@ nav a {
 
 nav a:hover {
     background-color: #403F60;
-    color: #A359EC;
     transform: scale(1.1);
 }
 
@@ -41,14 +45,20 @@ nav a:hover {
     padding: 0.5rem 1rem 0rem;
 }
 
+
+/* Invert images color */
 #linkedin, #github, #star, #copy-clipboard {
     filter: invert(100%);
 }
 
-h1, a {
+
+/* Set main color theme */
+h1, a, nav a:hover {
     color: #A359EC;
 }
 
+
+/* Profile styles */
 #profile {
     margin-top: 2rem;
 }
@@ -63,14 +73,19 @@ h1, a {
     font-size: 1.5rem;
 }
 
+
+/* Set container width for responsiveness */
 .container-1 {
     max-width: 768px;
     width: 90%;
 }
 
+
 /* Favorite Films stlyles to be added */
 /*  */
 
+
+/* Socials styles */
 .container-1 > a {
     display: inline-flex;
     text-decoration: none;
@@ -90,6 +105,8 @@ h1, a {
     opacity: 1;
 }
 
+
+/* Matcha styles */
 #status-bar {
     position: fixed;
     bottom: 2rem;
