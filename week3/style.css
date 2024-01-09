@@ -172,3 +172,19 @@ h1, a, nav a:hover {
 #copy-clipboard:hover {
     opacity: 1;
 }
+
+
+/* Scroll Bar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #000000;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #041C32;
+    border-radius: 5px;
+}
