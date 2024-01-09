@@ -41,12 +41,16 @@ nav a:hover {
     padding: 0.5rem 1rem 0rem;
 }
 
-#linkedin, #github {
+#linkedin, #github, #star, #copy-clipboard {
     filter: invert(100%);
 }
 
 h1, a {
     color: #A359EC;
+}
+
+#profile {
+    margin-top: 2rem;
 }
 
 #profile img {
@@ -62,4 +66,26 @@ h1, a {
 .container-1 {
     max-width: 768px;
     width: 90%;
+}
+
+/* Favorite Films stlyles to be added */
+/*  */
+
+.container-1 > a {
+    display: inline-flex;
+    text-decoration: none;
+    align-items: center;
+    color: #ffffff;
+    opacity: 0.5;
+    font-size: 1rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+}
+
+.container-1 > a > img {
+    padding-right: 0.5rem;
+}
+
+.container-1 > a:hover {
+    opacity: 1;
 }
