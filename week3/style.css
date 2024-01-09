@@ -90,6 +90,23 @@ h1, a {
     opacity: 1;
 }
 
+#status-bar {
+    position: fixed;
+    bottom: 2rem;
+    background-color: #A359EC;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 40px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
 #copy-clipboard {
     cursor: pointer;
+    opacity: 0.5;
+}
+
+#copy-clipboard:hover {
+    opacity: 1;
 }
