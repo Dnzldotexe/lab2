@@ -81,8 +81,53 @@ h1, a, nav a:hover {
 }
 
 
-/* Favorite Films stlyles to be added */
-/*  */
+/* Favorite Films styles */
+#films-container {
+    display: grid;
+    grid-gap: 1.5rem;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.films {
+    cursor: pointer;
+}
+
+.films:hover {
+    opacity: 0.8;
+    transform: scale(0.9);
+    transition: all 0.2s ease;
+}
+
+.films > a > img {
+    width: 173px;
+    height: 256px;
+    /* aspect-ratio: 2 / 3; */
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    #films-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 639px) {
+    #films-container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 0.5rem;
+    }
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+}
+
+.rating > img {
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.2rem;
+}
 
 
 /* Socials styles */
