@@ -57,6 +57,10 @@ h1, a, nav a:hover {
     color: #A359EC;
 }
 
+#link-hover:hover {
+    opacity: 0.8;
+}
+
 
 /* Profile styles */
 #profile {
