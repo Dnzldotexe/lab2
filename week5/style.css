@@ -71,6 +71,19 @@ h1, a, nav a:hover {
     border: 3px solid #A359EC;
 }
 
+#profile img:hover {
+    animation: rotation 20s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+
 #profile p {
     display: grid;
     place-items: center;
