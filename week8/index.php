@@ -213,27 +213,24 @@
         </p>
     </div>
     <?php
-        echo "Fun Fact";
-        echo "
-            Hey guys, 
-            did you know that in terms of human companionship, 
-            Flareon is objectively the most huggable Pokemon? 
-            While their maximum temperature is likely too much for most, 
-            they are capable of controlling it, 
-            so they can set themselves to the perfect temperature for you. 
-            Along with that, 
-            they have a lot of fluff, 
-            making them undeniably incredibly soft to touch. 
-            But that's not all, 
-            they have a very respectable special defense stat of 110, 
-            which means that they are likely very calm and resistant to emotional damage. 
-            Because of this, 
-            if you have a bad day, 
-            you can vent to it while hugging it, 
-            and it won't mind. 
-            It can make itself even more endearing with moves like Charm and Baby Doll Eyes, 
-            ensuring that you never have a prolonged bout of depression ever again.
-        ";
+        echo "Hey guys, <br>";
+        echo "did you know that in terms of human companionship, <br>";
+        echo "Flareon is objectively the most huggable Pokemon? <br>";
+        echo "While their maximum temperature is likely too much for most, <br>";
+        echo "they are capable of controlling it, <br>";
+        echo "so they can set themselves to the perfect temperature for you. <br>";
+        echo "Along with that, <br>";
+        echo "they have a lot of fluff, <br>";
+        echo "making them undeniably incredibly soft to touch. <br>";
+        echo "But that's not all, <br>";
+        echo "they have a very respectable special defense stat of 110, <br>";
+        echo "which means that they are likely very calm and resistant to emotional damage. <br>";
+        echo "Because of this, <br>";
+        echo "if you have a bad day, <br>";
+        echo "you can vent to it while hugging it, <br>";
+        echo "and it won't mind. <br>";
+        echo "It can make itself even more endearing with moves like Charm and Baby Doll Eyes, <br>";
+        echo "ensuring that you never have a prolonged bout of depression ever again.<br>";
     ?>
     <div style="margin: 2rem 0;">
        <a id="link-hover" href="https://apcwebprog.csf.ph/~dtcempron/lab2/week8/resources.php" target="_blank">Resources</a>
