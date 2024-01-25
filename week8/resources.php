@@ -24,7 +24,7 @@
 </head>
 <body>
     <h1>
-        <a id="link-hover" href="index.html" target="_blank">
+        <a id="link-hover" href="index.php" target="_blank">
             Danziel Cempron's Personal Profile Website Resources
         </a>
     </h1>
