@@ -212,6 +212,9 @@
             <img style="width: 18px; margin-left: 0.3rem;" id="copy-clipboard" src="IMAGES/file-copy-line.png" alt="Copy Icon" onclick="copyText('erc20')">
         </p>
     </div>
+    <?php
+        echo "Fun Fact";
+    ?>
     <div style="margin: 2rem 0;">
        <a id="link-hover" href="https://apcwebprog.csf.ph/~dtcempron/lab2/week8/resources.php" target="_blank">Resources</a>
     </div>
