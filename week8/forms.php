@@ -117,10 +117,10 @@
   ?>
 
   <?php
-  $servername = "localhost:3307";
-  $username = "root";
-  $password = "";
-  $dbname = "myDB";
+  $servername = "localhost";
+  $username = "webprogss221";
+  $password = "=latHen97";
+  $dbname = "webprogss221";
 
   // Create connection
   $conn = new mysqli($servername, $username, $password, $dbname);
@@ -129,7 +129,7 @@
     die("Connection failed: " . $conn->connect_error);
   }
 
-  $sql = "INSERT INTO MyGuests (firstname, lastname, email)
+  $sql = "INSERT INTO dtcempron_myguests (firstname, lastname, email)
   VALUES ('$name', '$website', '$email')";
 
   if ($conn->query($sql) === TRUE) {
