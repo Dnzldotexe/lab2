@@ -117,8 +117,8 @@ echo "<br>";
 echo $gender;
 ?>
 
-<?php
 
+<?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") 
 {
 // For apcwebprog
@@ -127,7 +127,6 @@ $username = "webprogss221";
 $password = "=latHen97";
 $dbname = "webprogss221";
 
-
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
@@ -135,7 +134,7 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "INSERT INTO dtcempron_myguests (name, email,website,comment,gender)
+$sql = "INSERT INTO dtcempron_myguests (name, email, website, comment, gender)
 VALUES ('$name', '$email','$website','$comment','$gender')";
 
 if ($conn->query($sql) === TRUE) {
